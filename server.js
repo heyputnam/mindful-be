@@ -17,7 +17,7 @@ app.use(cors());
 
 //mount routes with app.use
 
-app.use('/meds', require('./routes/meds'))
+app.use('/api/meds', require('./routes/api/meds'))
 
 //tell port where to listen 
 
