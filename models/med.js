@@ -7,9 +7,9 @@ const medSchema = new Schema({
         name: String,
         dose: String,
         dateFill: Date,
-        morning:Boolean,
-        afternoon: Boolean,
-        night: Boolean
+        morning: String,
+        afternoon: String,
+        night: String
     
     }, {timestamps:true})
 
